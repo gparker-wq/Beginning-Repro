@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     LegislationService.GetLegislation shape. Verify field names against a live
+     call before relying on them. -->
+<ArrayOfLegislation xmlns="http://WSLWebServices.leg.wa.gov/">
+  <Legislation>
+    <Biennium>2025-26</Biennium>
+    <BillId>HB 2137</BillId>
+    <BillNumber>2137</BillNumber>
+    <SubstituteVersion>0</SubstituteVersion>
+    <EngrossedVersion>0</EngrossedVersion>
+    <ShortLegislationType>
+      <ShortLegislationType>B</ShortLegislationType>
+      <LongLegislationType>Bill</LongLegislationType>
+    </ShortLegislationType>
+    <ShortDescription>Concerning civic technology data access.</ShortDescription>
+    <LongDescription>AN ACT Relating to improving public access to legislative data through open civic-technology interfaces.</LongDescription>
+    <Sponsor>Representative Sample</Sponsor>
+    <PrimeSponsorID>31337</PrimeSponsorID>
+    <CompanionBillId>SB 5987</CompanionBillId>
+    <CurrentVersion>Original Bill</CurrentVersion>
+    <IntroducedDate>2025-01-13T00:00:00</IntroducedDate>
+    <Active>true</Active>
+  </Legislation>
+</ArrayOfLegislation>

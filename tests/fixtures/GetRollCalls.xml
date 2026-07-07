@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     LegislationService.GetRollCalls shape. Member-level Vote entries are
+     included so the count fallback path is exercised too. -->
+<ArrayOfRollCall xmlns="http://WSLWebServices.leg.wa.gov/">
+  <RollCall>
+    <Agency>House</Agency>
+    <BillId>HB 2137</BillId>
+    <Biennium>2025-26</Biennium>
+    <Motion>Final Passage</Motion>
+    <SequenceNumber>142</SequenceNumber>
+    <VoteDate>2025-03-05T00:00:00</VoteDate>
+    <YeaVotes>
+      <Count>71</Count>
+    </YeaVotes>
+    <NayVotes>
+      <Count>25</Count>
+    </NayVotes>
+    <Votes>
+      <Vote>
+        <MemberId>1001</MemberId>
+        <Name>Rep. Alpha</Name>
+        <VOte>Yea</VOte>
+      </Vote>
+      <Vote>
+        <MemberId>1002</MemberId>
+        <Name>Rep. Beta</Name>
+        <VOte>Nay</VOte>
+      </Vote>
+    </Votes>
+  </RollCall>
+</ArrayOfRollCall>

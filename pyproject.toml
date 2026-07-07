@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wa-leg-history"
+version = "1.0.0"
+description = "Build a chronological JSON timeline of a Washington State Legislature bill's history from the WA Legislature SOAP/XML web services."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []  # core uses only the Python standard library
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+wa-leg-history = "wa_leg_history.cli:main"
+
+[tool.setuptools]
+packages = ["wa_leg_history"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

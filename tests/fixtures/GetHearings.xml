@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     LegislationService.GetHearings shape (hearing details nested under a
+     CommitteeMeeting element). -->
+<ArrayOfHearing xmlns="http://WSLWebServices.leg.wa.gov/">
+  <Hearing>
+    <CommitteeMeeting>
+      <Agency>House</Agency>
+      <CommitteeName>Innovation, Community &amp; Economic Development</CommitteeName>
+      <Date>2025-01-21T10:00:00-08:00</Date>
+      <Room>House Hearing Room A, JLOB</Room>
+    </CommitteeMeeting>
+  </Hearing>
+  <Hearing>
+    <CommitteeMeeting>
+      <Agency>Senate</Agency>
+      <CommitteeName>Transportation</CommitteeName>
+      <Date>2025-03-18T13:30:00-07:00</Date>
+      <Room>Senate Hearing Room 1, JACB</Room>
+    </CommitteeMeeting>
+  </Hearing>
+</ArrayOfHearing>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     LegislationService.GetCurrentStatus shape. -->
+<LegislativeStatus xmlns="http://WSLWebServices.leg.wa.gov/">
+  <BillId>HB 2137</BillId>
+  <BillNumber>2137</BillNumber>
+  <Biennium>2025-26</Biennium>
+  <ActionDate>2025-03-05T00:00:00</ActionDate>
+  <HistoryLine>Passed House; referred to Senate Transportation.</HistoryLine>
+  <AmendedByOppositeBody>false</AmendedByOppositeBody>
+  <PartialVeto>false</PartialVeto>
+  <Veto>false</Veto>
+  <AmendmentsExist>true</AmendmentsExist>
+  <Status>In Senate Committee</Status>
+</LegislativeStatus>

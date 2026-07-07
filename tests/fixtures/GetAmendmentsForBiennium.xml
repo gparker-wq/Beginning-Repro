@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     LegislationService.GetAmendmentsForBiennium shape. -->
+<ArrayOfAmendment xmlns="http://WSLWebServices.leg.wa.gov/">
+  <Amendment>
+    <Biennium>2025-26</Biennium>
+    <BillNumber>2137</BillNumber>
+    <BillId>HB 2137</BillId>
+    <Name>1042</Name>
+    <SponsorName>Representative Gamma</SponsorName>
+    <Type>Floor</Type>
+    <FloorNumber>1042</FloorNumber>
+    <Agency>House</Agency>
+    <FloorAction>ADOPTED</FloorAction>
+    <FloorActionDate>2025-03-04T00:00:00</FloorActionDate>
+    <HtmUrl>https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Amendments/House/2137%20AMH%20SAMP%201042.htm</HtmUrl>
+  </Amendment>
+  <Amendment>
+    <Biennium>2025-26</Biennium>
+    <BillNumber>2137</BillNumber>
+    <BillId>HB 2137</BillId>
+    <Name>1055</Name>
+    <SponsorName>Representative Delta</SponsorName>
+    <Type>Floor</Type>
+    <FloorNumber>1055</FloorNumber>
+    <Agency>House</Agency>
+    <FloorAction>NOT ADOPTED</FloorAction>
+    <FloorActionDate>2025-03-04T00:00:00</FloorActionDate>
+    <HtmUrl>https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Amendments/House/2137%20AMH%20SAMP%201055.htm</HtmUrl>
+  </Amendment>
+</ArrayOfAmendment>

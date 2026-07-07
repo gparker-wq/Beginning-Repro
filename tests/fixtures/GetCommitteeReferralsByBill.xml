@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SAMPLE / RECONSTRUCTED DATA - not a live response. Modeled on the expected
+     CommitteeActionService.GetCommitteeReferralsByBill shape. -->
+<ArrayOfCommitteeReferral xmlns="http://WSLWebServices.leg.wa.gov/">
+  <CommitteeReferral>
+    <Agency>House</Agency>
+    <CommitteeName>Innovation, Community &amp; Economic Development</CommitteeName>
+    <ReferralDate>2025-01-13T00:00:00</ReferralDate>
+  </CommitteeReferral>
+  <CommitteeReferral>
+    <Agency>Senate</Agency>
+    <CommitteeName>Transportation</CommitteeName>
+    <ReferralDate>2025-03-06T00:00:00</ReferralDate>
+  </CommitteeReferral>
+</ArrayOfCommitteeReferral>
